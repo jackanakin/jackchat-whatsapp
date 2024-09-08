@@ -1,9 +1,9 @@
-package br.dev.kuhn.jackchat.whatsapp.v1.config;
+package br.dev.kuhn.jackchat.v1.whatsapp.config;
 
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
-import br.dev.kuhn.jackchat.whatsapp.v1.properties.ChatwootProperties;
+import br.dev.kuhn.jackchat.v1.whatsapp.properties.ChatwootProperties;
 
 @Configuration
 @EnableConfigurationProperties(ChatwootProperties.class)

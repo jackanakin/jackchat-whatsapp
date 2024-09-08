@@ -1,11 +1,11 @@
-package br.dev.kuhn.jackchat.whatsapp.v1.properties;
+package br.dev.kuhn.jackchat.v1.whatsapp.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "chatwoot")
 public class ChatwootProperties {
-    public String apiUrl;
-    public String apiKey;
+    private String apiUrl;
+    private String apiKey;
 
     public String getApiUrl() {
         return apiUrl;
