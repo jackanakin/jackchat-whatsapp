@@ -1,9 +1,9 @@
-package br.dev.kuhn.jackchat.v1.whatsapp.rest.dto.converters;
+package br.dev.kuhn.jackchat.v1.conversation.rest.dto.converters;
 
 import java.util.Map;
 
-import br.dev.kuhn.jackchat.v1.whatsapp.rest.dto.PayloadDTO;
-import br.dev.kuhn.jackchat.v1.whatsapp.rest.dto.enums.PayloadEvent;
+import br.dev.kuhn.jackchat.v1.conversation.rest.dto.PayloadDTO;
+import br.dev.kuhn.jackchat.v1.conversation.rest.dto.enums.PayloadEvent;
 
 public class ConversationResolvedConverter {
     public static PayloadDTO convert(Map<String, Object> json) {

@@ -1,4 +1,4 @@
-package br.dev.kuhn.jackchat.v1.whatsapp.rest.dto;
+package br.dev.kuhn.jackchat.v1.conversation.rest.dto;
 
 public class PayloadDTO {
     private final int conversationId;

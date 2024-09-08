@@ -1,10 +1,10 @@
-package br.dev.kuhn.jackchat.v1.whatsapp.rest.dto;
+package br.dev.kuhn.jackchat.v1.conversation.rest.dto;
 
 import java.util.Map;
 
-import br.dev.kuhn.jackchat.v1.whatsapp.rest.dto.converters.ConversationResolvedConverter;
-import br.dev.kuhn.jackchat.v1.whatsapp.rest.dto.converters.MessageCreatedConverter;
-import br.dev.kuhn.jackchat.v1.whatsapp.rest.dto.enums.PayloadEvent;
+import br.dev.kuhn.jackchat.v1.conversation.rest.dto.converters.ConversationResolvedConverter;
+import br.dev.kuhn.jackchat.v1.conversation.rest.dto.converters.MessageCreatedConverter;
+import br.dev.kuhn.jackchat.v1.conversation.rest.dto.enums.PayloadEvent;
 
 public class WhatsAppRequestFactory {
     public static PayloadDTO create(Map<String, Object> json) {

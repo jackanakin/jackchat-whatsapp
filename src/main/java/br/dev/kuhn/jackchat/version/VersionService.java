@@ -5,7 +5,7 @@ import java.text.MessageFormat;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import br.dev.kuhn.jackchat.v1.whatsapp.properties.ChatwootProperties;
+import br.dev.kuhn.jackchat.v1.conversation.properties.ChatwootProperties;
 
 @Service
 public class VersionService implements IVersionService {

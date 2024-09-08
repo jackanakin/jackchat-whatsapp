@@ -1,4 +1,4 @@
-package br.dev.kuhn.jackchat.v1.whatsapp.service;
+package br.dev.kuhn.jackchat.v1.conversation.service;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,10 +11,10 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import br.dev.kuhn.jackchat.v1.whatsapp.properties.ChatwootProperties;
+import br.dev.kuhn.jackchat.v1.conversation.properties.ChatwootProperties;
 
 @Service
-public class WhatsAppService {
+public class ConversationService {
 
     @Autowired
     private RestTemplate restTemplate;

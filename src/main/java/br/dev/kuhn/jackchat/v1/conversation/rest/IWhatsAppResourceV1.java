@@ -1,4 +1,4 @@
-package br.dev.kuhn.jackchat.v1.whatsapp.rest;
+package br.dev.kuhn.jackchat.v1.conversation.rest;
 
 import java.util.Map;
 

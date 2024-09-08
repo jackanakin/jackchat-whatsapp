@@ -1,4 +1,4 @@
-package br.dev.kuhn.jackchat.v1.whatsapp.properties;
+package br.dev.kuhn.jackchat.v1.conversation.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

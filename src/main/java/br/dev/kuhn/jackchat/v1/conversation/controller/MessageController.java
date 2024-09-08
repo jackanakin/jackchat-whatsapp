@@ -1,4 +1,4 @@
-package br.dev.kuhn.jackchat.v1.whatsapp.controller;
+package br.dev.kuhn.jackchat.v1.conversation.controller;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -6,8 +6,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import br.dev.kuhn.jackchat.v1.whatsapp.rest.dto.PayloadDTO;
-import br.dev.kuhn.jackchat.v1.whatsapp.rest.dto.enums.MessageType;
+import br.dev.kuhn.jackchat.v1.conversation.rest.dto.PayloadDTO;
+import br.dev.kuhn.jackchat.v1.conversation.rest.dto.enums.MessageType;
 
 public class MessageController {
     private static final Map<Integer, MessageController> controllers = Collections.synchronizedMap(new HashMap<>());
