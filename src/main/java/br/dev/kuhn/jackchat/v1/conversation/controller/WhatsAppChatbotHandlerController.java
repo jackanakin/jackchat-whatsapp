@@ -40,15 +40,20 @@ public class WhatsAppChatbotHandlerController {
     private boolean isFinished = false;
 
     public boolean isNotStarted() {
-        return handler == null;
+        return !isFinished && handler == null;
     }
 
     public boolean isFinished() {
         return isFinished;
     }
 
+    public void setFinished(boolean isFinished) {
+        this.isFinished = isFinished;
+        this.handler = null;
+    }
+
     public void handle(PayloadDTO input) {
-        if (handler != null) {
+        if (handler != null && !isFinished) {
             this.handler = handler.handle(input);
 
             if (handler == null) {

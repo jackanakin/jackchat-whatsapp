@@ -25,6 +25,10 @@ public class PayloadDTO {
     }
 
     public String getContent() {
+        if (content == null) {
+            return "";
+        }
+
         return content;
     }
 

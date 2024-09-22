@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.dev.kuhn.jackchat</groupId>
 	<artifactId>whatsapp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>whatsapp</name>
 	<description>Demo project for Spring Boot</description>
 	<dependencies>
@@ -23,6 +23,11 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
 		</dependency>
 
 		<dependency>
